@@ -1,0 +1,26 @@
+<div class="container">
+  <div #divPai class="retangulo-grande">
+    <div #divTelaEsquerda class="quadrado-grande">
+      <div class="retangulo-pequeno">
+        <span>Representante</span>
+        <hr class="linha">
+      </div>
+      <div class="retangulo-medio">
+        
+        <app-quadrado-foto></app-quadrado-foto>
+      </div>
+
+    </div>
+
+
+    <div #divBotoesDireita class="linha-direita">
+      <app-retangulo-vertical (numerodigitado)="pintarnumeronatela($event)"></app-retangulo-vertical>
+      <app-retangulo-horizontal></app-retangulo-horizontal>
+    </div>
+  </div>
+</div>
+
+
+
+
+

@@ -1,0 +1,45 @@
+
+.retangulo {
+  width: 320px;
+  height: 130px;
+  background-color: white;
+  border: 1px solid black;
+  margin-top: 4px;
+  margin-left: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.numero-container,
+.nome-container {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.numero-container span,
+.nome-container span {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.numero-container .quadrados{
+  display: flex;
+gap: -10;
+}
+.numero-container .quadrados .quadrado{
+  width: 20px;
+  height: 20px;
+  background-color: white;
+border: 3px solid black;
+}
+.nome-container .linha{
+  width: 100px;
+  height: 2px;
+  background-color: black;
+  align-items: flex-end;
+}
