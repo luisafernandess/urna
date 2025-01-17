@@ -1,14 +1,13 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { CommonModule } from '@angular/common';
-import { QuadradoFotoComponent } from "./quadrado-foto/quadrado-foto.component";
 import { RetanguloVerticalComponent } from "./retangulo-vertical/retangulo-vertical.component";
 import { RetanguloHorizontalComponent } from "./retangulo-horizontal/retangulo-horizontal.component";
 
 @Component({
   selector: 'app-root',
   standalone:true,
-  imports: [QuadradoFotoComponent, RetanguloVerticalComponent, RetanguloHorizontalComponent],
+  imports: [RetanguloVerticalComponent, RetanguloHorizontalComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

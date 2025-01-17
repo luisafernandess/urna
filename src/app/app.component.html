@@ -6,12 +6,17 @@
         <hr class="linha">
       </div>
       <div class="retangulo-medio">
-        
-        <app-quadrado-foto></app-quadrado-foto>
+        <div class="dados">
+          <div class="nome">Nome</div>
+          <div class="quadrado"></div>
+          <div class="quadrado"></div>
+          <div class="quadrado"></div>
+        </div>
+        <div class="foto">
+          <div class="quadrado-foto"></div>
+        </div>
       </div>
-
     </div>
-
 
     <div #divBotoesDireita class="linha-direita">
       <app-retangulo-vertical (numerodigitado)="pintarnumeronatela($event)"></app-retangulo-vertical>
@@ -19,7 +24,6 @@
     </div>
   </div>
 </div>
-
 
 
 

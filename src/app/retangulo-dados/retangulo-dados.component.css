@@ -2,7 +2,7 @@
 .retangulo {
   width: 320px;
   height: 130px;
-  background-color: white;
+  background-color: rgb(252, 10, 10);
   border: 1px solid black;
   margin-top: 4px;
   margin-left: 5px;
