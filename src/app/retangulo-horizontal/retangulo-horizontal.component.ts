@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-retangulo-horizontal',
@@ -8,5 +8,16 @@ import { Component } from '@angular/core';
   styleUrl: './retangulo-horizontal.component.css'
 })
 export class RetanguloHorizontalComponent {
-
+@Output() corrige = new EventEmitter<void>();
+@Output () confirma = new EventEmitter <void>();
+@Output() branco =new EventEmitter <void>();
+onCorrige(){
+  this.corrige.emit();
+}
+ onConfirma (){
+  this.confirma.emit();
+ }
+onBranco(){
+  this.branco.emit();
+}
 }
